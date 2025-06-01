@@ -100,14 +100,14 @@ function addListenerHitBox() {
                 state.view.score.textContent = state.values.result;
                 state.values.hitPosition = null;
                 playSound("hit");
-                clicked.src = "../detona-ralph-aula/src/images/ralph-damage.png";
+                clicked.src = "images/ralph-damage.png";
                 clicked.classList.add("damaged")
                 setTimeout(() => clicked.classList.remove("damaged"), 300);
 
             } else if (square.querySelector('.penelope') && square.querySelector('.penelope').src.includes('penolope-.png')) {
                 state.values.lives--;
                 state.view.lives.textContent = state.values.lives;
-                clicked.src = "../detona-ralph-aula/src/images/penolope-damage.png";
+                clicked.src = "images/penolope-damage.png";
                 playSound("miss");
                  clicked.classList.add("damaged")
                 setTimeout(() => clicked.classList.remove("damaged"), 300);
