@@ -50,6 +50,7 @@ O objetivo era criar um jogo interativo com JavaScript, baseado no personagem Ra
 
 ## 🚀 Próximos passos
 
+- Arrumar a responsividade de tela em todos os dispositivos moveis
 - Criar fases e níveis
 - Adicionar contador de erros
 - Tela inicial e reinício elegante
