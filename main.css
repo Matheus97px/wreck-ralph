@@ -1,9 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 .container {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: url("/desafio-games/detona-ralph-aula/images/wall.png");
-
+    background-image: url('./images/wall.png');
 }
 
 .menu {
@@ -50,10 +53,7 @@
 
 }
 
-.enemy {
-    background-image: url("../images/ralph.png");
-    background-size: cover;
-}
+
 
 .menu-lives {
     display: flex;
