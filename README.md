@@ -34,7 +34,7 @@ O objetivo era criar um jogo interativo com JavaScript, baseado no personagem Ra
 
 ## 📸 Screenshot
 
-![detona-ralph-preview](https://i.imgur.com/3I9rHpX.png) <!-- posso te gerar outro se quiser com aparência final -->
+![detona-ralph-preview](./images/screenshot.png) 
 
 ---
 
