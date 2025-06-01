@@ -4,7 +4,7 @@ Projeto desenvolvido durante o bootcamp **"Coding the Future: Front-End do Zero"
 O objetivo era criar um jogo interativo com JavaScript, baseado no personagem Ralph do filme Detona Ralph.
 
 💻 **Veja o projeto online:**  
-🔗 [https://matheus97px.github.io/detona-ralph/](https://matheus97px.github.io/wreck-ralph/)
+🔗 [https://matheus97px.github.io/wreck-ralph/](https://matheus97px.github.io/wreck-ralph/)
 
 ---
 
