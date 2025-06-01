@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detona Ralph</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- styles -->
+    <link rel="stylesheet" href="../detona-ralph-aula/src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/main.css">
+</head>
+
+<body>
+
+    <main class="container">
+        <div class="menu">
+            <div class="menu-time">
+                <h2 style="color: red;">Time Left</h2>
+                <h2 id="time-left">0</h2>
+            </div>
+            <div class="menu-score">
+                <h2 style="color: red;">Your Scores</h2>
+                <h2 id="score">0</h2>
+            </div>
+            
+            <div class="menu-high-score">
+                <h2 style="color: red;">High Score</h2>
+                <h2 id="high-score">0</h2>
+            </div>
+
+            <div class="menu-lives">
+                <img src="../detona-ralph-aula/src/images/player.png" alt="foto do jogador" height="60px"
+                    class="player"><p>x</p>
+                <span id="lives">3</span>
+            </div>
+        </div>
+        <div class="panel">
+            <div class="panel-row">
+                <div class="square " id="1">
+                    <img src="../detona-ralph-aula/src/images/penolope-.png" alt="" class="penolope hidden">
+                    <img src="../detona-ralph-aula/src/images/ralph.png" alt=""
+                    class="ralph hidden">
+                </div>
+                <div class="square " id="2">
+                     <img src="../detona-ralph-aula/src/images/penolope-.png" alt="" class="penolope hidden">
+                    <img src="../detona-ralph-aula/src/images/ralph.png" alt=""
+                    class="ralph hidden">
+                </div>
+                <div class="square" id="3">
+                     <img src="../detona-ralph-aula/src/images/penolope-.png" alt="" class="penolope hidden">
+                    <img src="../detona-ralph-aula/src/images/ralph.png" alt=""
+                    class="ralph hidden">
+                </div>
+            </div>
+            <div class="panel-row">
+                <div class="square" id="4">
+                     <img src="../detona-ralph-aula/src/images/penolope-.png" alt="" class="penolope hidden">
+                    <img src="../detona-ralph-aula/src/images/ralph.png" alt=""
+                    class="ralph hidden">
+                </div>
+                <div class="square" id="5">
+                     <img src="../detona-ralph-aula/src/images/penolope-.png" alt="" class="penolope hidden">
+                    <img src="../detona-ralph-aula/src/images/ralph.png" alt=""
+                    class="ralph hidden">
+                </div>
+                <div class="square" id="6">
+                     <img src="../detona-ralph-aula/src/images/penolope-.png" alt="" class="penolope hidden">
+                    <img src="../detona-ralph-aula/src/images/ralph.png" alt=""
+                    class="ralph hidden">
+                </div>
+            </div>
+            <div class="panel-row">
+                <div class="square" id="7">
+                     <img src="../detona-ralph-aula/src/images/penolope-.png" alt="" class="penolope hidden">
+                    <img src="../detona-ralph-aula/src/images/ralph.png" alt=""
+                    class="ralph hidden">
+                </div>
+                <div class="square" id="8">
+                     <img src="../detona-ralph-aula/src/images/penolope-.png" alt="" class="penolope hidden">
+                    <img src="../detona-ralph-aula/src/images/ralph.png" alt=""
+                    class="ralph hidden">
+                </div>
+                <div class="square" id="9">
+                     <img src="../detona-ralph-aula/src/images/penolope-.png" alt="" class="penolope hidden">
+                    <img src="../detona-ralph-aula/src/images/ralph.png" alt=""
+                    class="ralph hidden">
+                </div>
+            </div>
+
+            
+        </div>
+       
+   <div  class="hidden" id="game-over-popup">
+            <div class="popup-content">
+                <h2>Game Over</h2>
+                <p>Seu placar final foi : <span id="final-score"></span></p>
+                <button id="popup-restart">Reiniciar Jogo</button>
+            </div>
+        </div>
+     
+    </main>
+
+
+
+    <script defer src="./src/scripts/engine.js"></script>
+</body>
+
+</html>
