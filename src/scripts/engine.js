@@ -42,7 +42,7 @@ function countDown() {
 }
 
 function playSound(audioName) {
-    let audio = new Audio(`./src/audios/${audioName}.m4a`);
+    let audio = new Audio(`audios/${audioName}.m4a`);
 
     audio.play();
     audio.volume = 0.2;
@@ -76,10 +76,10 @@ function randomSquare() {
     const img = document.createElement('img');
 
     if (isPenelope) {
-        img.src = "../detona-ralph-aula/src/images/penolope-.png";
+        img.src = "images/penolope-.png";
         img.classList.add('penelope');
     } else {
-        img.src = "../detona-ralph-aula/src/images/ralph.png";
+        img.src = "images/ralph.png";
         img.classList.add('ralph');
         state.values.hitPosition = chosenSquare.id; // Atualiza a posição do hit
     }
